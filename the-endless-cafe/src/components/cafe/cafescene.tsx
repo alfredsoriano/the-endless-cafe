@@ -1,9 +1,10 @@
-import Avatar from './avatar/avatar.tsx';
+import Avatar from './avatar/avatar';
 import './cafe.css';
 
 export default function CafeScene() {
   return (
     <div className="cafe">
+
       <div className="room">
         
         {/* LEFT: Main player */}
@@ -19,6 +20,7 @@ export default function CafeScene() {
         </div>
 
       </div>
+
     </div>
   );
 }
